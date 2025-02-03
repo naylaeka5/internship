@@ -1,0 +1,921 @@
+
+<html lang="en" class=" "><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title inertia="">Seameo Recfon</title>
+
+  <!-- Fonts -->
+  <link rel="shortcut icon" href="https://internship.seameo-recfon.org/home/Logo.svg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&amp;family=Monoton&amp;family=Montserrat:ital,wght@0,100..900;1,100..900&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+   <link rel="preload" as="style" href="https://internship.seameo-recfon.org/build/assets/app-DLTWvDeB.css"><link rel="modulepreload" href="https://internship.seameo-recfon.org/build/assets/app-DM_BWOIF.js"><link rel="modulepreload" href="https://internship.seameo-recfon.org/build/assets/Index-BhYwYYyD.js"><link rel="modulepreload" href="https://internship.seameo-recfon.org/build/assets/Footer-BNStXQUS.js"><link rel="modulepreload" href="https://internship.seameo-recfon.org/build/assets/index-xU2QvQyy.js"><link rel="modulepreload" href="https://internship.seameo-recfon.org/build/assets/iconBase-D3CXyg9V.js"><link rel="stylesheet" href="https://internship.seameo-recfon.org/build/assets/app-DLTWvDeB.css"><script type="module" src="https://internship.seameo-recfon.org/build/assets/app-DM_BWOIF.js"></script><script type="module" src="https://internship.seameo-recfon.org/build/assets/Index-BhYwYYyD.js"></script>    <link rel="modulepreload" as="script" crossorigin="" href="/build/assets/Index-BhYwYYyD.js"><link rel="modulepreload" as="script" crossorigin="" href="/build/assets/Footer-BNStXQUS.js"><link rel="modulepreload" as="script" crossorigin="" href="/build/assets/index-xU2QvQyy.js"><link rel="modulepreload" as="script" crossorigin="" href="/build/assets/iconBase-D3CXyg9V.js"><style type="text/css">
+
+  #nprogress {
+    pointer-events: none;
+  }
+
+
+  #nprogress .bar {
+    background: #E4232A;
+
+    position: fixed;
+    z-index: 1031;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 2px;
+  }
+
+  #nprogress .peg {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 100px;
+    height: 100%;
+    box-shadow: 0 0 10px #E4232A, 0 0 5px #E4232A;
+    opacity: 1.0;
+
+    -webkit-transform: rotate(3deg) translate(0px, -4px);
+        -ms-transform: rotate(3deg) translate(0px, -4px);
+            transform: rotate(3deg) translate(0px, -4px);
+  }
+
+  #nprogress .spinner {
+    display: block;
+    position: fixed;
+    z-index: 1031;
+    top: 15px;
+    right: 15px;
+  }
+
+  #nprogress .spinner-icon {
+    width: 18px;
+    height: 18px;
+    box-sizing: border-box;
+
+    border: solid 2px transparent;
+    border-top-color: #E4232A;
+    border-left-color: #E4232A;
+    border-radius: 50%;
+
+    -webkit-animation: nprogress-spinner 400ms linear infinite;
+            animation: nprogress-spinner 400ms linear infinite;
+  }
+
+  .nprogress-custom-parent {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .nprogress-custom-parent #nprogress .spinner,
+  .nprogress-custom-parent #nprogress .bar {
+    position: absolute;
+  }
+
+  @-webkit-keyframes nprogress-spinner {
+    0%   { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  @keyframes nprogress-spinner {
+    0%   { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+</style>
+
+<link rel="modulepreload" as="script" crossorigin="" href="/build/assets/Welcome-BBZ-C9A3.js"><link rel="modulepreload" as="script" crossorigin="" href="/build/assets/index-BYSAQv9S.js"></head>
+
+<body class="font-sans antialiased">
+  <div id="app" data-page="{&quot;component&quot;:&quot;Application\/Index&quot;,&quot;props&quot;:{&quot;errors&quot;:{},&quot;auth&quot;:{&quot;user&quot;:null}},&quot;url&quot;:&quot;\/applications&quot;,&quot;version&quot;:&quot;b7a956d2e6cd480c9b11d0402d76d2fa&quot;}">
+    <header class="fixed top-0 left-0 right-0 z-[99] overflow-hidden w-screen md:w-full">
+      <nav class="bg-white pb-6 pt-2">
+          <div class="wrapper flex items-end justify-between">
+              <img src="img/Screenshot 2025-01-29 114337.png" alt="Logo">
+              <div class="md:flex hidden items-end gap-10">
+                  <ul class="flex items-start gap-10 text-recfonred font-semibold">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="about.html">About Us</a></li>
+                      <li><a href="application.html">Application</a></li>
+                      <li><a href="gallery.html">Gallery</a></li>
+                      <li><a href="faq.html">FAQ</a></li>
+                      <li class="flex flex-col items-center gap-2">
+                          <a href="kalkulator.html">Kalkulator</a>
+                          <hr class="border-[1.5px] border-recfonred w-20">
+                      </li>
+                  </ul>
+                  <a class="bg-recfonred w-28 h-10 rounded-md flex-center text-white mt-4" href="login.html">Login</a>
+              </div>
+              <div class="md:hidden">
+                  <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 15 15" class="text-2xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M1.5 3C1.22386 3 1 3.22386 1 3.5C1 3.77614 1.22386 4 1.5 4H13.5C13.7761 4 14 3.77614 14 3.5C14 3.22386 13.7761 3 13.5 3H1.5ZM1 7.5C1 7.22386 1.22386 7 1.5 7H13.5C13.7761 7 14 7.22386 14 7.5C14 7.77614 13.7761 8 13.5 8H1.5C1.22386 8 1 7.77614 1 7.5ZM1 11.5C1 11.2239 1.22386 11 1.5 11H13.5C13.7761 11 14 11.2239 14 11.5C14 11.7761 13.7761 12 13.5 12H1.5C1.22386 12 1 11.7761 1 11.5Z" fill="currentColor"></path>
+                  </svg>
+              </div>
+          </div>
+      </nav>
+  </header>
+  
+
+      <div id="hamburger-menu" class="hidden fixed top-0 left-0 w-full h-full bg-white z-50">
+          <ul class="flex flex-col items-center justify-center h-full gap-8 text-recfonred font-semibold">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="application.html">Application</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="kalkulator.html">Kalkulator</a></li>
+                  <a class="bg-recfonred w-28 h-10 rounded-md flex-center text-white" href="login.html">Login</a>
+              </li>
+          </ul>
+      </div>
+
+      <style>
+          /* Styling untuk menu hamburger */
+#hamburger-menu {
+display: none; /* Default tersembunyi */
+}
+
+/* Tampilkan menu saat aktif */
+#hamburger-menu.active {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+      </style>
+
+<script>
+  // Ambil elemen hamburger dan menu
+  const hamburgerIcon = document.querySelector(".md\\:hidden svg");
+  const hamburgerMenu = document.getElementById("hamburger-menu");
+
+  // Tambahkan event listener pada hamburger
+  hamburgerIcon.addEventListener("click", () => {
+      // Toggle class 'active' pada menu
+      hamburgerMenu.classList.toggle("active");
+  });
+
+  // Tutup menu jika elemen di luar menu diklik
+  document.addEventListener("click", (e) => {
+      if (!hamburgerMenu.contains(e.target) && e.target !== hamburgerIcon) {
+          hamburgerMenu.classList.remove("active");
+      }
+  });
+</script>
+
+<section id="home" class="container" style="padding-top: 80px;"> <!-- Sesuaikan tinggi header -->
+    <header>
+      <h1 class="title">Kalkulator BMI</h1>
+      <p class="paragraph">
+        Berat badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu? <br> Yuk, hitung sekarang di kalkulator BMI.
+      </p>
+    </header>
+  
+    <div>
+      <h2>Hitung BMI Anda</h2>
+      <p>Isi form berikut untuk menghitung Indeks Massa Tubuh (BMI) Anda.</p>
+    </div>
+  </section>
+  
+    <div>
+      <form id="form" class="form" aria-label="Kalkulator BMI">
+        <div>
+            <label class="form-label" for="gender">Jenis Kelamin</label>
+            <div class="input-group">
+              <input type="radio" name="gender" id="male" value="Pria" class="form-input-check">
+              <label for="male" class="gender-label">Pria</label>
+              <input type="radio" name="gender" id="female" value="Wanita" class="form-input-check">
+              <label for="female" class="gender-label">Wanita</label>
+            </div>
+            <span id="genderErrorMessage" class="error-message"></span>
+          </div>
+          
+          <style>
+            .input-group {
+              display: flex;
+              gap: 20px; /* Memberikan jarak antara "Pria" dan "Wanita" */
+              align-items: center; /* Membuat input dan label sejajar */
+            }
+          
+            .gender-label {
+              cursor: pointer;
+              color: #000; /* Warna teks default */
+              font-size: 16px;
+              margin-left: 5px; /* Jarak antara input radio dan label */
+            }
+          
+            h2 {
+  margin-top: 40px; /* Turunkan elemen judul lebih ke bawah */
+  font-weight: bold; /* Jadikan teks tebal */
+}
+
+p {
+  margin-top: 40px; /* Turunkan elemen paragraf lebih ke bawah */
+}
+
+
+            .form-input-check {
+              display: none; /* Menyembunyikan tombol radio untuk gaya kustom */
+            }
+          
+            /* Checkbox sebelum dipilih */
+            .form-input-check + .gender-label::before {
+              content: "";
+              display: inline-block;
+              width: 16px;
+              height: 16px;
+              border: 2px solid #000; /* Garis lingkaran */
+              border-radius: 50%;
+              margin-right: 10px;
+              vertical-align: middle;
+              background-color: transparent; /* Tidak ada warna */
+            }
+          
+            /* Checkbox ketika dipilih untuk "Pria" (blue) */
+            #male:checked + .gender-label::before {
+              background-color: #007BFF; /* Warna biru */
+              border-color: #007BFF;
+            }
+          
+            /* Checkbox ketika dipilih untuk "Wanita" (pink) */
+            #female:checked + .gender-label::before {
+              background-color: #FF69B4; /* Warna pink */
+              border-color: #FF69B4;
+            }
+          
+            /* Teks label ketika dipilih */
+            .form-input-check:checked + .gender-label {
+              font-weight: bold;
+            }
+          
+            /* Teks label untuk "Pria" (blue) */
+            #male:checked + .gender-label {
+              color: #007BFF; /* Warna biru */
+            }
+          
+            /* Teks label untuk "Wanita" (pink) */
+            #female:checked + .gender-label {
+              color: #FF69B4; /* Warna pink */
+            }
+          </style>
+          
+        <div>
+          <label class="form-label" for="weight">Berat Badan</label>
+          <div class="input-group">
+            <span class="input-group-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                <path
+                  d="M410.3 231l11.3-11.3-33.9-33.9-62.1-62.1L291.7 89.8l-11.3 11.3-22.6 22.6L58.6 322.9c-10.4 10.4-18 23.3-22.2 37.4L1 480.7c-2.5 8.4-.2 17.5 6.1 23.7s15.3 8.5 23.7 6.1l120.3-35.4c14.1-4.2 27-11.8 37.4-22.2L387.7 253.7 410.3 231zM160 399.4l-9.1 22.7c-4 3.1-8.5 5.4-13.3 6.9L59.4 452l23-78.1c1.4-4.9 3.8-9.4 6.9-13.3l22.7-9.1v32c0 8.8 7.2 16 16 16h32zM362.7 18.7L348.3 33.2 325.7 55.8 314.3 67.1l33.9 33.9 62.1 62.1 33.9 33.9 11.3-11.3 22.6-22.6 14.5-14.5c25-25 25-65.5 0-90.5L453.3 18.7c-25-25-65.5-25-90.5 0zm-47.4 168l-144 144c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l144-144c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z" />
+              </svg>
+            </span>
+            <input type="number" name="weight" id="weight" class="form-input" min="1" aria-describedby="weightDesc">
+            <span class="input-group-desc" id="weightDesc">Kg</span>
+          </div>
+          <span id="weightErrorMessage" class="error-message"></span>
+        </div>
+        <div>
+          <label class="form-label" for="age">Umur</label>
+          <div class="input-group">
+            <span class="input-group-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                <path
+                  d="M410.3 231l11.3-11.3-33.9-33.9-62.1-62.1L291.7 89.8l-11.3 11.3-22.6 22.6L58.6 322.9c-10.4 10.4-18 23.3-22.2 37.4L1 480.7c-2.5 8.4-.2 17.5 6.1 23.7s15.3 8.5 23.7 6.1l120.3-35.4c14.1-4.2 27-11.8 37.4-22.2L387.7 253.7 410.3 231zM160 399.4l-9.1 22.7c-4 3.1-8.5 5.4-13.3 6.9L59.4 452l23-78.1c1.4-4.9 3.8-9.4 6.9-13.3l22.7-9.1v32c0 8.8 7.2 16 16 16h32zM362.7 18.7L348.3 33.2 325.7 55.8 314.3 67.1l33.9 33.9 62.1 62.1 33.9 33.9 11.3-11.3 22.6-22.6 14.5-14.5c25-25 25-65.5 0-90.5L453.3 18.7c-25-25-65.5-25-90.5 0zm-47.4 168l-144 144c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l144-144c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z" />
+              </svg>
+            </span>
+            <input type="number" name="age" id="age" class="form-input" min="1" aria-describedby="ageDesc">
+            <span class="input-group-desc" id="ageDesc">Tahun</span>
+          </div>
+          <span id="ageErrorMessage" class="error-message"></span>
+        </div>
+        <div>
+          <label class="form-label" for="height">Tinggi Badan</label>
+          <div class="input-group">
+            <span class="input-group-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                <path
+                  d="M410.3 231l11.3-11.3-33.9-33.9-62.1-62.1L291.7 89.8l-11.3 11.3-22.6 22.6L58.6 322.9c-10.4 10.4-18 23.3-22.2 37.4L1 480.7c-2.5 8.4-.2 17.5 6.1 23.7s15.3 8.5 23.7 6.1l120.3-35.4c14.1-4.2 27-11.8 37.4-22.2L387.7 253.7 410.3 231zM160 399.4l-9.1 22.7c-4 3.1-8.5 5.4-13.3 6.9L59.4 452l23-78.1c1.4-4.9 3.8-9.4 6.9-13.3l22.7-9.1v32c0 8.8 7.2 16 16 16h32zM362.7 18.7L348.3 33.2 325.7 55.8 314.3 67.1l33.9 33.9 62.1 62.1 33.9 33.9 11.3-11.3 22.6-22.6 14.5-14.5c25-25 25-65.5 0-90.5L453.3 18.7c-25-25-65.5-25-90.5 0zm-47.4 168l-144 144c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l144-144c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z" />
+              </svg>
+            </span>
+            <input type="number" name="height" id="height" class="form-input" min="1" aria-describedby="heightDesc">
+            <span class="input-group-desc" id="heightDesc">Cm</span>
+          </div>
+          <span id="heightErrorMessage" class="error-message"></span>
+        </div>
+        <div>
+          <button type="button" class="btn" onclick="checkBMI()">Hitung BMI</button>
+          <button type="reset" class="btn btn-reset">Reset</button>
+        </div>
+      </form>
+    </div>
+    <div class="mb-1">
+        <h3 class="sub-title">Keunggulan fitur</h3>
+        <p class="features">
+            Proses mencapai berat badan ideal dimulai dengan menghitung berat badan terkini,<br>
+            kemudian menganalisis apakah berat badan tersebut sudah ideal atau belum berdasarkan kategori berat badan yang tepat,<br>
+            dan jika diperlukan, langkah selanjutnya adalah mempersiapkan program penurunan berat badan yang terstruktur dan aman.
+          </p>
+          
+      </div>
+      <div>
+        <p class="paragraph-box ">
+            Kalkulator ini hanya boleh digunakan oleh orang dewasa (wanita hamil atau menyusui tidak boleh mengandalkan pembacaan BMI ini) dan tidak ada tindakan yang harus diambil berdasarkan nilainya selain berkonsultasi dengan orang yang memenuhi syarat seperti dokter.
+          </p>
+          <p class="paragraph-box">
+            Kalkulator akan memberi anda gambaran tentang perbandingan berat badan anda dengan nilai umum. Indek Massa Tubuh (atau BMI) dihitung sebagai berat badan anda (dalam kilogram) dibagi dengan kuadrat tinggi badan anda (dalam meter) atau BMI = Kg/M<sup>2</sup>.
+          </p>
+      </div>
+          
+          <style>
+            /* Box styling for paragraphs */
+            .paragraph-box {
+              max-width: 600px; /* Limit the width of the box */
+              padding: 15px; /* Adding padding inside the box */
+              border: 2px solid #ccc; /* Adding a border around the box */
+              margin-left: 100px; /* Centering the box horizontally */
+              margin-right: auto; /* Centering the box horizontally */
+              margin-bottom: 15px; /* Space between boxes */
+              border-radius: 5px; /* Rounded corners */
+              background-color: #f9f9f9; /* Light background color */
+              line-height: 1.6; /* For better readability */
+            }
+
+            .features {
+  margin-right: 100px; /* Geser daftar lebih jauh ke kanan */
+  margin-top: 50px; /* Turunkan daftar lebih ke bawah */
+}
+
+.features li {
+  margin-top: 15px; /* Tambahkan jarak antar item daftar */
+}
+
+.mb-1 {
+  margin-bottom: 20px; /* Tambahkan jarak di bawah elemen */
+  margin-top: 40px; /* Turunkan elemen lebih ke bawah */
+  margin-right: 50px; /* Geser elemen sedikit lebih ke kanan */
+  font-weight: bold; /* Jadikan teks tebal */
+
+}
+
+h2 {
+  margin-top: 40px; /* Turunkan elemen judul lebih ke bawah */
+  font-weight: bold; /* Jadikan teks tebal */
+}
+
+p {
+  margin-top: 40px; /* Turunkan elemen paragraf lebih ke bawah */
+}
+
+.sub-title {
+  margin-left: 60px; /* Geser teks sub-judul lebih ke kanan */
+  margin-top: 50px; /* Turunkan teks sub-judul lebih ke bawah */
+}
+
+          </style>
+          
+      </div>
+      
+      <style>
+        .sub-title {
+          margin-bottom: 10px;
+        }
+      
+        .features {
+          margin-left: 20px;
+        }
+      
+        /* Box styling for paragraphs */
+        .paragraph-box {
+          padding: 15px; /* Adding padding inside the box */
+          border: 2px solid #ccc; /* Adding a border around the box */
+          margin-left: 20px; /* Shifting text to the right */
+          margin-bottom: 15px; /* Space between boxes */
+          border-radius: 5px; /* Rounded corners */
+          background-color: #f9f9f9; /* Light background color */
+          line-height: 1.6; /* For better readability */
+        }
+      
+        .mb-1 {
+          margin-bottom: 15px;
+        }
+      </style>
+      
+
+      <section id="result" class="container d-hidden">
+        <h2 class="title">Hasil</h2>
+        <div class="sub-container mb-1">
+          <h3 id="result-title" class="result-title"></h3>
+          <div id="result-bmi" class="result-bmi"></div>
+          <p id="result-desc" class="result-desc"></p>
+        </div>
+        
+    
+    
+        <div class="mb-1 paragraph">
+          <p id="result-text"></p>
+          <p id="suggestion-text"></p>
+          <p id="advice-text"></p>
+          <div class="button-cta">
+            <button class="btn">Konsultasi Ahli Gizi Via Aplikasi</button>
+            <button class="btn">Registrasi Online Ahli Gizi</button>
+          </div>
+          <p>
+            BMI tidak sepenuhnya mewakili diagnosis menyeluruh dari kesehatan tubuh dan resiko penyakit seseorang, Anda perlu konsultasi lebih lanjut mengenai resiko dan kekhawatiran Anda terkait dengan berat badan Anda.
+          </p>
+        </div>
+        
+        <div class="sub-container paragraph">
+          <h6 id="risk-title"></h6>
+          <ul id="list-risk" class="list-risk"></ul>
+          <div class="button-cta">
+            <button class="btn">Konsultasi Dokter Via Aplikasi</button>
+            <button class="btn">Registrasi Online Sekarang</button>
+          </div>
+        </div>
+        
+        <div class="download-app">
+          <h6>Download Aplikasi</h6>
+          <div class="button-cta">
+            <img src="./img/google-play.png" alt="Google Play" class="img" aria-label="Download di Google Play">
+            <img src="./img/apple-store.jpg" alt="Apple Store" class="img" aria-label="Download di Apple Store">
+          </div>
+        </div>
+        
+        <div>
+          <button class="btn" onclick="regenerateBMI()">Hitung Lagi</button>
+        </div>
+    </section>
+<script>
+    
+</script>    
+</main>
+
+<script src="./js/script.js"></script>
+</body>
+</html>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Global styles */
+:root {
+--font-family: 'Poppins', sans-serif;
+--primary-color: #1e9c9c;
+--secondary-color: #c3c2c2;
+--error-color: #ff0000;
+--base-font-size: medium;
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-size: var(--base-font-size);
+font-weight: normal;
+font-family: var(--font-family);
+scroll-behavior: smooth;
+}
+
+/* Common styles */
+.title {
+font-size: 25px;
+margin: 10px 0;
+}
+
+.sub-title {
+font-size: 20px;
+}
+
+.paragraph {
+text-align: justify;
+line-height: 30px;
+color: #1f1e1e;
+}
+
+.paragraph sup {
+font-size: 13px;
+}
+
+.mb-1 {
+margin-bottom: 30px;
+}
+
+.btn {
+border: none;
+border-radius: 5px;
+padding: 10px 15px;
+background-color: var(--primary-color);
+color: white;
+font-weight: 500;
+cursor: pointer;
+transition: background-color .3s ease-in-out;
+}
+
+.btn:hover {
+background-color: #136767;
+}
+
+.btn-reset {
+background-color: white;
+border: 1px solid gray;
+color: black;
+}
+
+.btn-reset:hover {
+background-color: #c3c2c2;
+}
+
+.d-hidden {
+display: none;
+}
+
+.error-message {
+color: var(--error-color);
+font-size: 13px;
+margin-top: 5px;
+}
+
+/* Home styles */
+.container {
+margin: 30px 5%;
+}
+
+.form {
+  background-color: rgba(170, 159, 161, 0.575);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 10px auto; /* Form berada di tengah horizontal */
+  max-width: 1300px; /* Lebar maksimal form sedikit diperlebar */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan untuk efek modern */
+}
+
+
+.form .form-label {
+display: block;
+margin-bottom: 0.5rem;
+}
+
+.form .form-input {
+display: block;
+width: 100%;
+padding: 0.375rem 0.75rem;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: black;
+background-color: white;
+background-clip: padding-box;
+border: 1px solid var(--secondary-color);
+appearance: none;
+}
+
+.form .input-group {
+position: relative;
+display: flex;
+flex-wrap: wrap;
+align-items: stretch;
+width: 100%;
+}
+
+.form .input-group > .form-input {
+position: relative;
+flex: 1 1 auto;
+width: 1%;
+min-width: 0;
+}
+
+.form .input-group-desc,
+.form .input-group-icon {
+display: flex;
+align-items: center;
+padding: 0.375rem 0.75rem;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: white;
+text-align: center;
+white-space: nowrap;
+border: 1px solid;
+}
+
+.form .input-group-desc {
+background-color: var(--primary-color);
+border-color: var(--primary-color);
+border-radius: 0 5px 5px 0;
+}
+
+.form .input-group-icon {
+background-color: var(--secondary-color);
+border-color: var(--secondary-color);
+border-radius: 5px 0 0 5px;
+}
+
+.features {
+margin-left: 20px;
+line-height: 30px;
+color: #1f1e1e;
+}
+
+/* Result styles */
+.sub-container {
+background-color: #dbdbdbcd;
+padding: 20px 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.result-title {
+font-size: 18px;
+}
+
+.result-bmi {
+font-size: 40px;
+}
+
+.result-desc {
+margin: 10px 0 20px;
+font-size: 15px;
+}
+
+.button-cta {
+display: flex;
+align-items: center;
+gap: 10px;
+margin: 10px 0;
+}
+
+.button-cta button {
+font-size: 12px;
+}
+
+.list-risk {
+list-style: none;
+text-align: center;
+}
+
+.download-app {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 10px 0;
+}
+
+.img {
+width: 300px;
+width: 100px;
+cursor: pointer;
+border-radius: 8px;
+}
+</style>
+
+<script>
+  // Objek untuk menyimpan kategori BMI dan pesan terkaitnya
+const BMI_CATEGORIES = {
+UNDERWEIGHT: 'Kekurangan berat badan',
+NORMAL: 'Normal (ideal)',
+OVERWEIGHT: 'Kelebihan berat badan',
+OBESITY: 'Kegemukan (Obesitas)',
+};
+
+// Fungsi untuk menghitung BMI berdasarkan berat badan dan tinggi badan
+const calculateBMI = (weight, height) => {
+let bmi = weight / ((height / 100) ** 2);
+
+return bmi.toFixed(1);
+};
+
+// Fungsi untuk memvalidasi input berat badan, tinggi badan, usia, dan jenis kelamin
+const validateInput = (weight, height, age, gender) => {
+// Mengambil elemen error message untuk masing-masing input
+const genderErrorMessage = document.getElementById('genderErrorMessage');
+const weightErrorMessage = document.getElementById('weightErrorMessage');
+const ageErrorMessage = document.getElementById('ageErrorMessage');
+const heightErrorMessage = document.getElementById('heightErrorMessage');
+
+// Mengatur pesan error menjadi kosong untuk mereset pesan error sebelumnya
+const errorMessages = document.querySelectorAll('.error-message');
+errorMessages.forEach((element) => (element.innerText = ''));
+
+let isValid = true;
+
+// Validasi jenis kelamin
+if (gender === '' || !['Pria', 'Wanita'].includes(gender)) {
+  genderErrorMessage.innerText = 'Pilih jenis kelamin terlebih dahulu';
+  isValid = false;
+}
+
+// Validasi berat badan
+if (isNaN(weight) || weight <= 0) {
+  weightErrorMessage.innerText = 'Berat badan harus berupa angka lebih dari 0';
+  isValid = false;
+}
+
+// Validasi tinggi badan
+if (isNaN(height) || height <= 0) {
+  heightErrorMessage.innerText = 'Tinggi badan harus berupa angka lebih dari 0';
+  isValid = false;
+}
+
+// Validasi usia
+if (isNaN(age) || age <= 0) {
+  ageErrorMessage.innerText = 'Umur harus berupa angka lebih dari 0';
+  isValid = false;
+}
+
+return isValid;
+};
+
+// Fungsi untuk mengecek status BMI berdasarkan nilai BMI dan jenis kelamin
+const checkStatus = (bmi, gender) => {
+let status = '';
+
+// Menentukan status BMI berdasarkan kategori dan nilai BMI
+switch (gender) {
+  case 'Pria':
+    if (bmi < 18.5) {
+      status = BMI_CATEGORIES.UNDERWEIGHT;
+    } else if (bmi >= 18.5 && bmi <= 24.9) {
+      status = BMI_CATEGORIES.NORMAL;
+    } else if (bmi >= 25.0 && bmi <= 29.9) {
+      status = BMI_CATEGORIES.OVERWEIGHT;
+    } else if (bmi >= 30.0) {
+      status = BMI_CATEGORIES.OBESITY;
+    }
+    break;
+  case 'Wanita':
+    if (bmi < 17) {
+      status = BMI_CATEGORIES.UNDERWEIGHT;
+    } else if (bmi >= 17 && bmi <= 23.9) {
+      status = BMI_CATEGORIES.NORMAL;
+    } else if (bmi >= 23.0 && bmi <= 27.0) {
+      status = BMI_CATEGORIES.OVERWEIGHT;
+    } else if (bmi > 27.0) {
+      status = BMI_CATEGORIES.OBESITY;
+    }
+    break;
+}
+
+return status;
+};
+
+// Fungsi untuk mendapatkan deskripsi teks berdasarkan status BMI
+const getDescText = (status) => {
+if (status === BMI_CATEGORIES.UNDERWEIGHT) {
+  return 'Anda memiliki berat badan kurang dari normal.';
+} else if (status === BMI_CATEGORIES.NORMAL) {
+  return 'Anda memiliki berat badan dalam kisaran normal.';
+} else if (status === BMI_CATEGORIES.OVERWEIGHT) {
+  return 'Anda memiliki berat badan berlebih.';
+} else if (status === BMI_CATEGORIES.OBESITY) {
+  return 'Anda memiliki berat badan yang sangat berlebih.';
+}
+};
+
+// Fungsi untuk mendapatkan teks saran berdasarkan status BMI
+const getSuggestionText = (status) => {
+if (status === BMI_CATEGORIES.UNDERWEIGHT) {
+  return 'Jika BMI Anda berada dalam kategori ini maka Anda dianjurkan untuk menambah berat badan hingga batas normal.';
+} else if (status === BMI_CATEGORIES.NORMAL) {
+  return 'Jika BMI Anda berada dalam kategori ini maka Anda memiliki berat badan yang sehat.';
+} else if (status === BMI_CATEGORIES.OVERWEIGHT) {
+  return 'Jika BMI Anda berada dalam kategori ini maka Anda dianjurkan untuk menurunkan berat badan hingga batas normal.';
+} else if (status === BMI_CATEGORIES.OBESITY) {
+  return 'Jika BMI Anda berada dalam kategori ini maka Anda dianjurkan untuk mengurangi berat badan hingga batas normal.';
+}
+};
+
+// Fungsi untuk mendapatkan teks saran gizi berdasarkan status BMI
+const getAdviceText = (status) => {
+if (status === BMI_CATEGORIES.UNDERWEIGHT) {
+  return 'Perbanyak asupan makanan bergizi dan konsultasikan dengan ahli gizi untuk peningkatan berat badan.';
+} else if ( status === BMI_CATEGORIES.NORMAL) {
+  return 'Lanjutkan gaya hidup sehat dengan pola makan seimbang dan olahraga teratur.';
+} else if (status === BMI_CATEGORIES.OVERWEIGHT) {
+  return 'Lakukan penyesuaian pola makan dan rutin berolahraga untuk menurunkan berat badan.';
+} else if (status === BMI_CATEGORIES.OBESITY) {
+  return 'Segera konsultasikan dengan ahli gizi untuk penurunan berat badan yang sehat.';
+}
+};
+
+// Fungsi untuk mendapatkan daftar penyakit berdasarkan status BMI
+const getDiseases = (status) => {
+if (status === BMI_CATEGORIES.UNDERWEIGHT) {
+  return ['Kekurangan gizi', 'Gangguan pertumbuhan', 'Sistem kekebalan tubuh lemah', 'Gangguan kesuburan'];
+} else if (status === BMI_CATEGORIES.NORMAL) {
+  return ['Tidak ada'];
+} else if (status === BMI_CATEGORIES.OVERWEIGHT) {
+  return ['Diabetes Tipe 2', 'Serangan Jantung', 'Hipertensi', 'Gastroesophageal Reflux Disease', 'Osteoarthritis', 'Kanker', 'Kolesterol Tinggi'];
+} else if (status === BMI_CATEGORIES.OBESITY) {
+  return ['Penyakit Jantung', 'Stroke', 'Kanker', 'Masalah Pencernaan', 'Sleep Apnea', 'Osteoartritis']
+}
+};
+
+// Fungsi untuk menampilkan hasil BMI, status, saran, dan risiko penyakit
+const generateDisplay = (bmi, status) => {
+const resultTitle = document.getElementById('result-title');
+resultTitle.innerText = status;
+const resultBmi = document.getElementById('result-bmi');
+resultBmi.innerText = bmi;
+const resultDesc = document.getElementById('result-desc');
+resultDesc.innerText = getDescText(status);
+
+const resultText = document.getElementById('result-text');
+resultText.innerText = `Hasil BMI: ${bmi}`;
+
+const suggestionText = document.getElementById('suggestion-text');
+suggestionText.innerText = getSuggestionText(status);
+
+const adviceText = document.getElementById('advice-text');
+adviceText.innerText = getAdviceText(status);
+
+const riskTitle = document.getElementById('risk-title')
+riskTitle.innerText = `Beberapa resiko penyakit yang berasal dari tubuh ${status}`;
+
+const riskList = document.getElementById('list-risk');
+riskList.innerHTML = '';
+
+const diseases = getDiseases(status);
+diseases.forEach((disease) => {
+  const listItem = document.createElement('li');
+  listItem.innerText = disease;
+  riskList.appendChild(listItem);
+});
+
+// Menyembunyikan form dan menampilkan hasil
+document.getElementById('form').reset();
+document.getElementById('result').classList.remove('d-hidden');
+document.getElementById('home').classList.add('d-hidden');
+};
+
+// Fungsi untuk mengecek BMI dan menampilkan hasil
+const checkBMI = () => {
+const weight = +document.getElementById('weight').value;
+const height = +document.getElementById('height').value;
+const gender = document.querySelector('input[name="gender"]:checked').value;
+const age = +document.getElementById('age').value;
+
+if (!validateInput(weight, height, age, gender)) {
+  return;
+}
+
+const bmi = calculateBMI(weight, height);
+const status = checkStatus(bmi, gender);
+generateDisplay(bmi, status);
+
+document.getElementById('result').scrollIntoView({ behavior: 'smooth' });
+};
+
+// Fungsi untuk mengembalikan tampilan form
+const regenerateBMI = () => {
+document.getElementById('home').classList.remove('d-hidden');
+document.getElementById('result').classList.add('d-hidden');
+document.getElementById('form').scrollIntoView({ behavior: 'smooth' });
+};
+
+/**
+* Sumber:
+* Resiko Penyakit Kekurangan Berat Badan: https://www.alodokter.com/faktor-penyebab-badan-kurus-dan-tips-sehat-untuk-mengatasinya/ Diakses pada 18 July 2023
+* Resiko Penyakit Kelebihan Berat Badan: https://health.detik.com/diet/d-4771038/7-penyakit-ini-bersembunyi-di-balik-berat-badan-berlebih/ Diakses pada 18 July 2023
+* Resiko Penyakit Obesitas: https://www.halodoc.com/kesehatan/obesitas/  Diakses pada 18 July 2023
+*/
+</script>
+
+<footer class="bg-teal/90 w-full pt-20 h-fit pb-4 md:pb-0 md:h-96 mt-40 text-white">
+    <div class="wrapper">
+        <div class="flex flex-col gap-10 md:gap-0 md:flex-row items-start justify-between">
+            <div class="flex flex-col gap-10 md:w-1/2">
+                <h1 class="text-2xl">SEAMEO RECFON Building</h1>
+                <h1>
+                    Jl. Utan Kayu Raya No. 1A, Utan Kayu Utara, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta, Jakarta 13120 | Indonesia.
+                    <br><br><br>Contact: +62-21 22116225
+                    <br> hr@seameo-recfon.org
+                </h1>
+            </div>
+            <div class="flex text-2xl md:items-center flex-col gap-10 md:w-[45%]">
+                <h1>Visitors</h1>
+                <a href="https://info.flagcounter.com/sY8X">
+                    <img src="https://s01.flagcounter.com/count2/sY8X/bg_385A64/txt_FFFFFF/border_385A64/columns_2/maxflags_10/viewers_3/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter">
+                </a>
+            </div>
+            <div class="flex flex-col text-2xl items-center gap-2">
+                <h1 class="md:text-center">Excellence in Food and Nutrition for Quality Human Resources</h1>
+                <div class="flex flex-center gap-4 mt-10">
+                    <img src="img/Screenshot 2025-01-17 103157.png" alt="Foto" class="w-60">
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div id="close" class="bg-teal w-full text-white h-20 flex justify-center items-center gap-4">
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-3xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+        <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 448c-110.532 0-200-89.451-200-200 0-110.531 89.451-200 200-200 110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200zm107.351-101.064c-9.614 9.712-45.53 41.396-104.065 41.396-82.43 0-140.484-61.425-140.484-141.567 0-79.152 60.275-139.401 139.762-139.401 55.531 0 88.738 26.62 97.593 34.779a11.965 11.965 0 0 1 1.936 15.322l-18.155 28.113c-3.841 5.95-11.966 7.282-17.499 2.921-8.595-6.776-31.814-22.538-61.708-22.538-48.303 0-77.916 35.33-77.916 80.082 0 41.589 26.888 83.692 78.277 83.692 32.657 0 56.843-19.039 65.726-27.225 5.27-4.857 13.596-4.039 17.82 1.738l19.865 27.17a11.947 11.947 0 0 1-1.152 15.518z"></path>
+    </svg>
+    <h1 class="font-bold text-white">Copyright SEAMEO RECFON | HRGA</h1>
+</div>
+</body>
+</html>
